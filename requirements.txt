@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+fastapi
+uvicorn
+pandas
+requests
+faiss-cpu
+
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-core==0.1.52
+langchain-groq
+
+sentence-transformers
+huggingface_hub
+psutil
+=======
+fastapi
+uvicorn
+pandas
+requests
+faiss-cpu
+
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-core==0.1.52
+langchain-groq
+
+sentence-transformers
+huggingface_hub
+>>>>>>> ede756e94c5864065088e508db73f3618241976c
