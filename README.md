@@ -11,7 +11,7 @@ pinned: false
 
 An end-to-end AI assistant that routes natural-language questions between two retrieval pipelines: a **RAG pipeline** over PDFs (using FAISS + sentence-transformer embeddings) and a **SQL pipeline** over a SQLite database. An LLM-based intent router decides which pipeline handles each query. Deployed as a FastAPI service on HuggingFace Spaces.
 
-**Live demo:** [amogh781-ai-agent.hf.space]([https://amogh781-ai-agent.hf.space](https://huggingface.co/spaces/amogh781/AI_agent_UI)) · **API docs:** [/docs](https://amogh781-ai-agent.hf.space/docs)
+**Live demo:** [amogh781-ai-agent.hf.space](https://amogh781-ai-agent.hf.space) · **API docs:** [/docs](https://amogh781-ai-agent.hf.space/docs)
 
 ---
 
