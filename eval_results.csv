@@ -1,0 +1,91 @@
+id,category,question,answer,faithfulness,relevance,reasoning
+cs2_001,cs2_gameplay,What are the victory conditions in Counter-Strike 2 and Valorant?,"In Counter-Strike 2, the victory conditions are as follows:
+
+- A team needs to win 13 rounds to win the game.
+- If the two sides are tied, the game will enter overtime, which lasts for 6 rounds.
+- In overtime, teams switch sides after 3 rounds.
+- The first team to win 4 rounds in overtime wins the game.",4,5,"The answer accurately describes the victory conditions in Counter-Strike 2, but omits the initial mention of the two halves and the round limit within each half, which are present in the retrieved context."
+cs2_002,cs2_comparison,How does Counter-Strike 2 compare to Valorant in terms of gameplay design?,"According to the provided context, Counter-Strike 2 (CS2) and Valorant have many similarities in basic gameplay. However, Valorant diverges from CS2 in its focus on character design and intricate skill systems. 
+
+Valorant prioritizes the inclusion of a wide range of characters and unique abilities, which enhances the strategic complexity and encourages players to develop their skills and strategies. In contrast, CS2 places an emphasis on authentic tactical confrontations and collaboration, witho",4,5,"The answer accurately reflects the context, comparing the gameplay designs of CS2 and Valorant, and directly addresses the question."
+cs2_003,valorant,What types of agent roles exist in Valorant?,"According to the provided context, there are four types of agent roles in Valorant: 
+
+1. Duelists 
+2. Controllers
+3. Initiators
+4. Sentinels",5,5,"The answer accurately lists the four types of agent roles in Valorant as mentioned in the retrieved context, and directly addresses the question."
+cs2_004,cs2_economy,How does the economic system work in Valorant?,"In Valorant, the economic system is similar to CS2's losing streak reward system but not identical. 
+
+When a round is lost, Valorant's economic system provides a fixed amount of bonus credits to help the team recover from their financial loss.
+
+After losing a round, the team will receive $1,400 compensation. For each subsequent round lost, the team will receive an additional $500 in credit bonuses, up to a total of two additional bonuses ($1,400 + $500 + $500 = $2,400). 
+
+In other words, the tea",3,4,"The answer partially addresses the question by describing the economic compensation system for losing rounds, but it inaccurately describes the system's behavior and does not mention the initial 800 Credits each player starts with."
+cs2_005,cs2_economy,How does the economic system work in CS2?,"According to the provided context, the economic system in CS2 is relatively simple and easy to understand, even for new players. The context doesn't go into details about the exact workings of the system, but it mentions that teams make purchasing decisions based on the state of the economy in each game. It also mentions that optimizing the buying strategy can significantly improve a team's winning rate, but it doesn't explain how the system calculates the economy or how players can optimize the",4,3,"The answer partially addresses the question by mentioning the simplicity of the economic system and the importance of purchasing decisions, but it fails to provide a clear explanation of how the system works."
+cs2_006,cs2_business,What is the difference in skin trading between CS2 and Valorant?,"According to the provided context, the main difference in skin trading between CS2 (Counter-Strike 2) and Valorant is that CS2 allows players to freely trade skins on the open market, while Valorant adopts a more closed and controlled skin sales model. In Valorant, skins are usually sold in packages with a fixed price, and they cannot be traded or sold between players.",5,5,The answer accurately reflects the retrieved context and directly addresses the question about the difference in skin trading between CS2 and Valorant.
+cs2_007,cs2_business,How does Valorant's battle pass system compare to CS2's?,"Valorant's battle pass system and CS2's system have some differences. CS2 doesn't have a traditional battle pass, but its Premier mode has a CS Rating system that ranks players from 1 to over 30,000. This system is based on performance in Premier mode, with different colors used to divide different ranks.
+
+In contrast, Valorant has a traditional battle pass system tied to the game's seasonal theme, offering skins, in-game currency, and exclusive customization items. The paid tier is usually pric",5,5,"The answer accurately and completely addresses the question by comparing Valorant's battle pass system to CS2's, highlighting their differences and similarities, and providing relevant context."
+cs2_008,cs2_gameplay,What are the ranking systems in Valorant and CS2?,"In Valorant, the ranking system from low to high includes: Iron, Bronze, Silver, Gold, Platinum, Diamond, Ascendant, Immortal, and the highest Radiant. 
+
+In CS2, the ranking system uses a numerical rating called the CS Rating, which ranges from 1 to over 30,000. This rating is divided into seven different colors (per 5000 points), but the specific ranking categories are not explicitly mentioned.",4,5,"The answer accurately describes the ranking systems in Valorant and CS2, but omits the specific ranking categories in CS2, which are mentioned in the context."
+cs2_009,cs2_community,What community issues does Valorant face?,"According to the provided context, Valorant's community faces several issues, including:
+
+1. Intolerance towards female players, particularly sexism in voice chat and game interactions.
+2. Competitive comparison, which is a broader issue mentioned in the context of the CS2 community but also affects Valorant.
+
+These issues hinder the healthy development of the game's community, despite Riot Games' efforts to build an inclusive environment.",4,5,"The answer accurately reflects the context, mentioning specific issues faced by the Valorant community, and directly addresses the question about community issues."
+cs2_010,cs2_community,What community issues does CS2 face?,"According to the provided context, the CS2 community faces several issues, including:
+
+1. Competitive comparisons, which may lead to:
+- Skin display (competitive showing off of in-game items)
+- Online gambling (which research indicates may lead to illegal gambling)
+- The involvement of underage players.",4,5,"The answer is mostly supported by the retrieved context, and it directly addresses the question by listing specific community issues faced by CS2."
+cs2_011,cs2_gameplay,How is the overtime system different between CS2 and Valorant?,"In CS2, the overtime match lasts for 6 rounds, with teams switching sides after 3 rounds. The first team to win 4 rounds in overtime wins the game. 
+
+On the other hand, Valorant's overtime in a match is unlimited, and it continues until either team wins two consecutive rounds.",5,5,"The answer accurately and completely addresses the question, and every claim is directly supported by the retrieved context."
+cs2_012,cs2_gameplay,What are the team formats in Counter-Strike 2?,I do not know the team formats in Counter-Strike 2.,5,5,The RAG system correctly refused to answer because the retrieved context does not mention or provide information about team formats in Counter-Strike 2.
+cs2_013,cs2_economy,What is the maximum credits a player can earn in Valorant?,"According to the given context, players can earn a maximum of 9000 Credits. However, it's worth noting that they can earn more than this amount in the event of overtime, where they receive 5,000 Credits per round. So, the maximum credits a player can earn in one game is 9000 + (5,000 * n), where n is the number of rounds played in overtime.",4,5,"The answer is mostly supported by the context, but it slightly overcomplicates the information by introducing the overtime scenario, and it directly and completely addresses the question about the maximum credits a player can earn in Valorant."
+cs2_014,cs2_gameplay,What entertainment modes does Valorant offer beyond standard play?,I don't have information on what entertainment modes Valorant offers beyond standard play.,1,1,"The answer is entirely fabricated and unrelated to the context, which discusses community issues and inclusivity rather than game modes."
+cs2_015,cs2_economy,What is the losing streak compensation in CS2?,"In CS2, the losing streak compensation is $1,400 for the first round loss, and each consecutive failure will receive an additional $500. There will be no increase for 5 or more times.",5,5,The answer accurately reflects the retrieved context and directly addresses the question about the losing streak compensation in CS2.
+mc_001,minecraft_houses,How do you build a Nordic Hall in Minecraft according to FyreUK?,"Unfortunately, I do not have that information. I was given information that mentioned a Nordic Hall by FyreUK, but it only contained a description stating that it was a large and complex structure built by the FyreUK team, without providing any details on how to build it.",4,1,"The answer is not faithful because it claims the context doesn't have the information, but the context actually does contain information about the Nordic Hall by FyreUK, even though it's not directly related to the question of how to build it, and the answer is not relevant because it doesn't address the question at all."
+mc_002,minecraft_houses,What is the Elaborate Island House by Salmon77?,"The Elaborate Island House by Salmon77 is a remarkable house created in the Minecraft community. However, I don't have enough information about the specific details of this house. 
+
+The description provided mentions that this house combines sandstone and wood, and showcases a mastery of building techniques. It also utilizes the natural landscape effectively, follows the island's shape, and incorporates features such as trees and grassy areas. 
+
+A grand staircase made from various complementary b",4,5,"The answer accurately summarizes the provided context, directly addressing the question and providing relevant details about the Elaborate Island House by Salmon77."
+mc_003,minecraft_garden,How do you create a swimming pool in a Minecraft garden?,"To create a swimming pool in a Minecraft garden, you can follow these steps:
+
+1. Dig a 1-block-deep area to create the pool itself.
+2. Line the edges of the pool with stone blocks to create a border.
+
+This will give you a basic swimming pool in your Minecraft garden.",4,5,"The answer is mostly supported by the retrieved context, specifically from Chapter 2 Summary and the construction recipes, and it directly addresses the question about creating a swimming pool in a Minecraft garden."
+mc_004,minecraft_crafting,How do you craft an anvil in Minecraft?,"To craft an anvil in Minecraft, you will need 3 iron ingots and 4 wood planks.",2,1,"The answer incorrectly combines information from the anvil and trapdoors crafting recipes, and fails to address the question about crafting an anvil."
+mc_005,minecraft_garden,How do you create an infinite water source in Minecraft?,"To create an infinite water source in Minecraft, you can make a 2x2 square or a 3x1 rectangle of water. This setup provides a never-ending supply of water.",4,5,"The answer is mostly supported by the retrieved context, specifically question 3 and 4, and directly addresses the question, providing a clear solution to create an infinite water source in Minecraft."
+mc_006,minecraft_walls,How do you build a fortified castle wall in Minecraft?,"To build a fortified castle wall in Minecraft, start by choosing a solid block like cobblestone for the base. Create a double-layer structure for strength. Incorporate stone bricks for aesthetic appeal. Include crenels for archer access, and a wood plank outside space to the next level.",4,4,"The answer mostly matches the retrieved context, but it lacks the mention of a wood plank outside space to the next level, which seems to be a misplaced detail from a different context."
+mc_007,minecraft_walls,What are the building tips for towers in Minecraft?,"According to the provided context, the building tips for towers in Minecraft are as follows:
+
+1. Build towers at each wall corner for enhanced defense and aesthetics.
+2. Towers should be at least double the wall height, with matching crenels.
+3. Incorporate decorative elements such as family or clan shields using colorful blocks like dyed wool to stand out from the stonework.",5,5,"The answer directly extracts and presents the building tips for towers in Minecraft from the retrieved context, accurately addressing the question."
+mc_008,minecraft_royal,How do you build a royal hall in Minecraft?,"To build a royal hall in Minecraft, you can follow these key steps:
+
+1. Select a suitable location for your hall and choose your building material, such as stone.
+2. Mark a 19-block wide by 30-block long outline for your hall. The hall can be 10-blocks tall.
+3. Choose materials for the walls and flooring, such as stone, and start building.
+4. Add windows to bring in light and create a more regal atmosphere.
+5. Add a royal carpet to complement the theme.
+6. Design a throne fit for the royalty, us",4,5,"The answer is mostly supported by the retrieved context, with some minor details inferred or not explicitly mentioned, but it directly and completely addresses the question of how to build a royal hall in Minecraft."
+mc_009,minecraft_royal,What materials make a throne fit for Minecraft royalty?,"According to the provided context, a throne fit for Minecraft royalty should be made with materials that ""bling it up,"" including gold and diamond.",5,5,The answer directly quotes the retrieved context and accurately addresses the question about materials for a throne fit for Minecraft royalty.
+mc_010,minecraft_crafting,How do you craft a diamond block in Minecraft?,"To craft a diamond block in Minecraft, you need 9 diamonds.",4,5,"The answer is mostly supported by the retrieved context, which directly states the crafting recipe for a diamond block, and it directly and completely answers the question."
+mc_011,minecraft_bridges,How do you build a suspension bridge in Minecraft?,"Based on the given context, we can infer that building a suspension bridge in Minecraft involves several steps and considerations, but we don't have a direct quote on the exact process. However, Chapter 5 mentions suspension bridges, saying that ""A bridge can be more than just a bridge—build detailed features into it where you can.""
+
+Since the context also mentions intricate lighting features like glowstone, it's likely that you would want to incorporate these elements into your bridge design to",3,2,"The answer partially addresses the question by mentioning suspension bridges, but it fails to provide a clear and direct answer on how to build one in Minecraft, and instead focuses on the context's mention of glowstone and bridge design."
+mc_012,minecraft_bridges,What is the Tower Bridge by Geroo inspired by?,Geroo's Tower Bridge in Minecraft is inspired by the real-life structure in London.,5,5,"The answer directly matches the information provided in the retrieved context, and it fully addresses the question about the inspiration behind Geroo's Tower Bridge in Minecraft."
+mc_013,minecraft_temple,How do you build an ocean temple in Minecraft?,"Building an ocean temple in Minecraft involves several steps and requires a specific design. Here's a general guide:
+
+1. **Choose a location**: Find a suitable ocean location with a sufficient amount of water. You can use the game's natural formations, such as underwater ruins or ocean ridges, or create a new structure.
+
+2. **Establish the base**: Begin by creating a dark prismarine base 2 blocks above the water's surface. The base should be an 11x11 block square, with extra blocks to denote cor",4,5,"The answer is mostly supported by the retrieved context, but it includes some minor details not explicitly mentioned, and it directly and completely addresses the question of how to build an ocean temple in Minecraft."
+mc_014,minecraft_crafting,How is dark prismarine crafted?,Dark prismarine is crafted by combining 8 prismarine shards and 1 ink sac.,5,5,The answer is directly supported by the retrieved context and accurately addresses the question of how dark prismarine is crafted.
+mc_015,minecraft_islands,How do you create a floating island in Minecraft?,"To create a floating island in Minecraft, you should start with a cobblestone tower that is 30-40 blocks tall as a center point. You then build a cross shape with cobblestone and a surrounding circle, sculpt the island's bottom in layers resembling discs, curving inward. Next, you fill the top with grass and decorative elements like trees and flowers. Finally, you remove the tower to make the island appear as if it's floating.",5,5,The answer is entirely supported by the retrieved context and directly addresses the question of how to create a floating island in Minecraft.

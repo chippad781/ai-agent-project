@@ -1,0 +1,189 @@
+{
+  "_description": "Eval set for RAG pipeline matched to Amogh's actual PDFs: a Counter-Strike 2 vs Valorant academic comparative analysis, and the Minecraft Construction Handbook (Bookey summary by Matthew Needler). Questions are grounded in what these documents actually contain.",
+  "_pdf_sources": [
+    "Comparative_Analysis_of_Counter-Strike_2_and_Valorant.pdf (academic paper, gameplay/community/business model comparison)",
+    "Minecraft PDF.pdf (Construction Handbook summary: palace, garden, royal hall, ocean temple, bridges, floating islands)"
+  ],
+  "questions": [
+    {
+      "id": "cs2_001",
+      "question": "What are the victory conditions in Counter-Strike 2 and Valorant?",
+      "expected_topics": ["plant bomb", "eliminate", "defuse", "13 rounds", "halves"],
+      "category": "cs2_gameplay"
+    },
+    {
+      "id": "cs2_002",
+      "question": "How does Counter-Strike 2 compare to Valorant in terms of gameplay design?",
+      "expected_topics": ["tactical", "character diversity", "agents", "traditional FPS"],
+      "category": "cs2_comparison"
+    },
+    {
+      "id": "cs2_003",
+      "question": "What types of agent roles exist in Valorant?",
+      "expected_topics": ["Duelists", "Controllers", "Initiators", "Sentinels"],
+      "category": "valorant"
+    },
+    {
+      "id": "cs2_004",
+      "question": "How does the economic system work in Valorant?",
+      "expected_topics": ["Credits", "800 Credits", "weapons", "200 Credits per kill"],
+      "category": "cs2_economy"
+    },
+    {
+      "id": "cs2_005",
+      "question": "How does the economic system work in CS2?",
+      "expected_topics": ["$800", "$16,000", "pistol round", "rewards"],
+      "category": "cs2_economy"
+    },
+    {
+      "id": "cs2_006",
+      "question": "What is the difference in skin trading between CS2 and Valorant?",
+      "expected_topics": ["open market", "closed", "fixed price", "trade", "skins"],
+      "category": "cs2_business"
+    },
+    {
+      "id": "cs2_007",
+      "question": "How does Valorant's battle pass system compare to CS2's?",
+      "expected_topics": ["battle pass", "$10", "$15", "seasonal", "skins"],
+      "category": "cs2_business"
+    },
+    {
+      "id": "cs2_008",
+      "question": "What are the ranking systems in Valorant and CS2?",
+      "expected_topics": ["Iron", "Bronze", "Radiant", "CS Rating", "Premier"],
+      "category": "cs2_gameplay"
+    },
+    {
+      "id": "cs2_009",
+      "question": "What community issues does Valorant face?",
+      "expected_topics": ["sexism", "female players", "inclusivity", "intolerance"],
+      "category": "cs2_community"
+    },
+    {
+      "id": "cs2_010",
+      "question": "What community issues does CS2 face?",
+      "expected_topics": ["gambling", "skin display", "competitive comparison", "underage"],
+      "category": "cs2_community"
+    },
+    {
+      "id": "cs2_011",
+      "question": "How is the overtime system different between CS2 and Valorant?",
+      "expected_topics": ["overtime", "six rounds", "unlimited", "consecutive"],
+      "category": "cs2_gameplay"
+    },
+    {
+      "id": "cs2_012",
+      "question": "What are the team formats in Counter-Strike 2?",
+      "expected_topics": ["5v5", "T", "CT", "terrorist", "counter-terrorist"],
+      "category": "cs2_gameplay"
+    },
+    {
+      "id": "cs2_013",
+      "question": "What is the maximum credits a player can earn in Valorant?",
+      "expected_topics": ["9000 Credits", "maximum", "winning rounds"],
+      "category": "cs2_economy"
+    },
+    {
+      "id": "cs2_014",
+      "question": "What entertainment modes does Valorant offer beyond standard play?",
+      "expected_topics": ["Spike Rush", "Replication", "Deathmatch", "Escalation"],
+      "category": "cs2_gameplay"
+    },
+    {
+      "id": "cs2_015",
+      "question": "What is the losing streak compensation in CS2?",
+      "expected_topics": ["$1,400", "$500", "consecutive failure", "compensation"],
+      "category": "cs2_economy"
+    },
+    {
+      "id": "mc_001",
+      "question": "How do you build a Nordic Hall in Minecraft according to FyreUK?",
+      "expected_topics": ["dark spruce wood", "cobblestone", "115 blocks", "triangular roof"],
+      "category": "minecraft_houses"
+    },
+    {
+      "id": "mc_002",
+      "question": "What is the Elaborate Island House by Salmon77?",
+      "expected_topics": ["sandstone", "wood", "island", "grand staircase"],
+      "category": "minecraft_houses"
+    },
+    {
+      "id": "mc_003",
+      "question": "How do you create a swimming pool in a Minecraft garden?",
+      "expected_topics": ["1-block-deep", "stone blocks", "edges", "water"],
+      "category": "minecraft_garden"
+    },
+    {
+      "id": "mc_004",
+      "question": "How do you craft an anvil in Minecraft?",
+      "expected_topics": ["4 wood blocks", "3 iron ingots", "anvil"],
+      "category": "minecraft_crafting"
+    },
+    {
+      "id": "mc_005",
+      "question": "How do you create an infinite water source in Minecraft?",
+      "expected_topics": ["2x2 square", "3x1 rectangle", "infinite", "water"],
+      "category": "minecraft_garden"
+    },
+    {
+      "id": "mc_006",
+      "question": "How do you build a fortified castle wall in Minecraft?",
+      "expected_topics": ["cobblestone", "crenels", "battlements", "stone bricks"],
+      "category": "minecraft_walls"
+    },
+    {
+      "id": "mc_007",
+      "question": "What are the building tips for towers in Minecraft?",
+      "expected_topics": ["double the wall height", "crenels", "windows", "staircase"],
+      "category": "minecraft_walls"
+    },
+    {
+      "id": "mc_008",
+      "question": "How do you build a royal hall in Minecraft?",
+      "expected_topics": ["19-block wide", "30-block long", "10-block tall", "carpet"],
+      "category": "minecraft_royal"
+    },
+    {
+      "id": "mc_009",
+      "question": "What materials make a throne fit for Minecraft royalty?",
+      "expected_topics": ["gold", "diamond", "throne", "luxurious"],
+      "category": "minecraft_royal"
+    },
+    {
+      "id": "mc_010",
+      "question": "How do you craft a diamond block in Minecraft?",
+      "expected_topics": ["9 diamonds", "diamond block"],
+      "category": "minecraft_crafting"
+    },
+    {
+      "id": "mc_011",
+      "question": "How do you build a suspension bridge in Minecraft?",
+      "expected_topics": ["horizontal planks", "supports", "arch", "H-shaped frames"],
+      "category": "minecraft_bridges"
+    },
+    {
+      "id": "mc_012",
+      "question": "What is the Tower Bridge by Geroo inspired by?",
+      "expected_topics": ["London", "Tower Bridge", "cobblestone", "wool accents"],
+      "category": "minecraft_bridges"
+    },
+    {
+      "id": "mc_013",
+      "question": "How do you build an ocean temple in Minecraft?",
+      "expected_topics": ["dark prismarine", "11x11", "sea lanterns", "cyan stained-glass"],
+      "category": "minecraft_temple"
+    },
+    {
+      "id": "mc_014",
+      "question": "How is dark prismarine crafted?",
+      "expected_topics": ["8 prismarine shards", "1 ink sac", "dark prismarine"],
+      "category": "minecraft_crafting"
+    },
+    {
+      "id": "mc_015",
+      "question": "How do you create a floating island in Minecraft?",
+      "expected_topics": ["cobblestone tower", "30-40 blocks", "cross shape", "discs"],
+      "category": "minecraft_islands"
+    }
+  ]
+}
